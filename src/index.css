@@ -1,0 +1,46 @@
+:root {
+  --ColorPrimary: #10426e;
+  --ColorPrimaryHover: #29679c;
+  --ColorAntiPrimary: white;
+  --ColorSecondarySelected: #d1e1f3;
+  --ColorSecondaryHover: #a0c6f1;
+  --ColorError: tomato;
+  --ColorModalBackground: #d1e1f3;
+}
+
+body {
+  font-family: 'Segoe UI';
+  text-align: center;
+}
+
+a {
+  color: var(--ColorAntiPrimary) !important;
+}
+
+button, input::-webkit-file-upload-button {
+  background-color: var(--ColorPrimary);
+  color: var(--ColorAntiPrimary);
+  font-weight: bold;
+  padding: 5px 8px;
+}
+
+button:hover, input::-webkit-file-upload-button:hover {
+  cursor: pointer;
+  background-color: var(--ColorPrimaryHover);
+}
+
+table {
+  table-layout: fixed;
+  margin: 10px auto;
+  width: 80%;
+}
+
+table th {
+  background-color: var(--ColorPrimary);
+  color: var(--ColorAntiPrimary);
+  padding: 5px;
+}
+
+table tr td {
+  padding: 0px 10px 3px 10px;
+}

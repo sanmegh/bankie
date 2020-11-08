@@ -1,0 +1,20 @@
+table.TabBar {
+  border: 1px solid;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.TabOption {
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.TabOption:hover {
+  background-color: var(--ColorSecondaryHover);
+}
+
+td.SelectedTabOption {
+  border: black 1px solid;
+  border-radius: 5px;
+  background-color: var(--ColorSecondarySelected);
+}

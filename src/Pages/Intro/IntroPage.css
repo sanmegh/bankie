@@ -1,0 +1,22 @@
+p.IntroDescription {
+    font-weight: bolder;
+}
+
+p.DisclaimerMsg {
+    max-width: 800px;
+    border: 1px solid;
+    background-color: var(--ColorSecondarySelected);
+    padding: 5px;
+    margin: 15px auto;
+    font-size: x-small;
+}
+
+div.TutorialStep {
+    padding: 10px;
+    border: 1px solid;
+}
+
+img.ImgScreenshot {
+    width: 400px;
+    border: 1px dotted;
+}

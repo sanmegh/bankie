@@ -1,0 +1,45 @@
+/* Header CSS*/
+
+header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: var(--ColorPrimary);
+  color: var(--ColorAntiPrimary);
+  padding: 10px;
+}
+
+.AppLogo {
+  width: 15px;
+  height: 15px;
+  padding-right: 5px;
+}
+
+.AppTitle {
+  font-weight: bolder;
+  font-size: large;
+}
+
+/* Footer CSS*/
+
+footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  font-size: small;
+  background-color: var(--ColorPrimary);
+  color: var(--ColorAntiPrimary);
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* Main CSS*/
+
+main {
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  min-height: 500px;
+}

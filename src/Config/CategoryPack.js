@@ -1,0 +1,280 @@
+import { faCoins, faHome, faMoneyCheckAlt, faPlane, faQuestionCircle, faShoppingBag, faShoppingCart, faTicketAlt, faUtensils } from '@fortawesome/free-solid-svg-icons';
+
+const categoryPack = [
+    {
+        'name': 'Entertainment',
+        'color': '#FF4500',
+        'icon': faTicketAlt,
+        'payeeList': [
+            'AUDIBLE',
+            'CINEMA',
+            'CINEWORLD',
+            'DISNEY',
+            'HOTSTAR',
+            'NETFLIX',
+            'ODEON',
+            'PICTUREHOUSE',
+            'PLEX',
+            'SPOTIFY',
+            'TV LICENCE',
+            'VIDEO',
+            'VUE',
+            'YOUTUBE'
+        ]
+    },
+    {
+        'name': 'Housing & Utility',
+        'color': '#00FFFF',
+        'icon': faHome,
+        'payeeList': [
+            'BOROUGH',
+            'BROADBAND',
+            'BT',
+            'CLEANING',
+            'COUNCIL',
+            'ELECTRICITY',
+            'ENERGY',
+            'GAS',
+            'GIFFGAFF',
+            'H3G',
+            'HYPEROPTIC',
+            'LEBARA',
+            'LYCA',
+            'MOBILE',
+            'MORTGAGE',
+            'O2',
+            'RENT',
+            'VECTONE',
+            'VIRGIN',
+            'VODAFONE',
+            'WIFI',
+            'WATER'
+        ]
+    },
+    {
+        'name': 'Income & Saving',
+        'color': '#2F4F4F',
+        'icon': faMoneyCheckAlt,
+        'payeeList': [
+            'CREDIT',
+            'SALARY',
+            'SAVING'
+        ]
+    },
+    {
+        'name': 'Money Transfer',
+        'color': '#00FF7F',
+        'icon': faCoins,
+        'payeeList': [
+            'ATM',
+            'CASH',
+            'HALIFAX',
+            'HSBC',
+            'LLYODS',
+            'NEFT',
+            'REVOLUT',
+            'TRANSFERWISE',
+            'TRAVELMONEY',
+            'XENDPAY',
+            'XOOM'
+        ]
+    },
+    {
+        'name': 'Restaurant & Bar',
+        'color': '#808000',
+        'icon': faUtensils,
+        'payeeList': [
+            ' BAR',
+            'BAKE',
+            'BREW',
+            'CHICKEN',
+            'COFF',
+            'COOKIE',
+            'COSTA',
+            'DELIVEROO',
+            'EAT',
+            'GRILL',
+            'GREGG',
+            'MCDONALD',
+            'KFC',
+            'LEON',
+            'NANDO',
+            'NERO',
+            'PASTY',
+            'PIRI PIRI',
+            'PIZZA',
+            'PRET',
+            'PURPLE TURTLE',
+            'RESTAUR',
+            'SUBWAY',
+            'STARBUCKS',
+            'SUSHI',
+            'TATTU',
+            'THAI',
+            'UBEREAT',
+            'WAGAMAMA',
+            'WIMPY',
+            'WETHERSP',
+            'WOK TO WALK',
+            'WRAP',
+            'ZIZI',
+            'ZOMATO'
+        ]
+    },
+    {
+        'name': 'Shopping',
+        'color': '#FFA500',
+        'icon': faShoppingBag,
+        'payeeList': [
+            'AMAZON',
+            'APPLE',
+            'ARGOS',
+            'BARGAINS',
+            'BODY SHOP',
+            'HOMESENSE',
+            'IKEA',
+            'POUNDLAND',
+            'WILKO',
+            'ACCESSORIZE',
+            'BLUE INC',
+            'CLAIRE',
+            'CURRYS',
+            'DEBENHAMS',
+            'DELL',
+            'FOSSIL',
+            'FLIPKART',
+            'FRASER',
+            'GAP',
+            'GIFT',
+            'H & M',
+            'HOLLISTER',
+            'JD',
+            'JOHN LEWIS',
+            'LENSKART',
+            'MARKS AND SPENCER',
+            'MARKS&SPENCER',
+            'MOUNTAIN W',
+            'MICROSOFT',
+            'MYNTRA',
+            'NEW LOOK',
+            'NEXT DIRECTORY',
+            'NEXT RETAIL',
+            'PRIMARK',
+            'RETAIL',
+            'SHOES',
+            'SHOPPERS STOP',
+            'SPORTSDIRECT',
+            'SUPERDRY',
+            'TED BAKER',
+            'TOP SHOP',
+            'TOPMAN',
+            'TRINITY',
+            'WAREHOUSE',
+            'WESTSIDE',
+            'ZARA',
+        ]
+    },
+    {
+        'name': 'Supermarket',
+        'color': '#FF00FF',
+        'icon': faShoppingCart,
+        'payeeList': [
+            'ALDI',
+            'ASDA',
+            'BOOTS',
+            'C C CONTINENTAL',
+            'CO-OP',
+            'COSTCO',
+            'DUNNES',
+            'ICELAND',
+            'LIDL',
+            'LONDIS',
+            'MEDICA',
+            'MORRISONS',
+            'RETAIL',
+            'SAINSBURY',
+            'SPAR',
+            'SUPERMARK',
+            'TESCO',
+            'WAITROSE',
+            'WH SMITH',
+            'WHOLE',
+        ]
+    },
+    {
+        'name': 'Transport',
+        'color': '#6666ff',
+        'icon': faPlane,
+        'payeeList': [
+            'AIRBNB',
+            'AIRIND',
+            'AIRLINE',
+            'AIRWAY',
+            'BOOKING',
+            'BUDGETAIR',
+            'COACH',
+            'EASYJET',
+            'EMIRATES',
+            'ETIHAD',
+            'EUROPCAR',
+            'EXPEDIA',
+            'FERRIES',
+            'FIRST WEST YORK',
+            'FLIGHT',
+            'FLIXBUS',
+            'FLYSHARP',
+            'GETT',
+            'GOAIR',
+            'GULF AIR',
+            'GWR',
+            'HOSTEL',
+            'HOTEL',
+            'INDIGO',
+            'JET2',
+            'LUFTHANSA',
+            'MEGABUS',
+            'MULTITRIP',
+            'NATIONAL EXPRESS',
+            'NCP',
+            'NORWEGIAN AIR',
+            'OLACAB',
+            'OLARIDE',
+            'QANTAS',
+            'RYANAIR',
+            'SCOTRAIL',
+            'SPICEJET',
+            'TAXI',
+            'TOURS',
+            'TRAIN',
+            'TRAVEL',
+            'VISTARA',
+            'VUELING',
+            'UBER'
+        ]
+    },
+    {
+        'name': 'Unknown',
+        'color': '#595959',
+        'icon': faQuestionCircle,
+        'payeeList': []
+    },
+]
+
+export function getCategoryPack() {
+    return categoryPack;
+}
+
+export function findCategory(categoryName) {
+    return categoryPack.find(category => category.name === categoryName);
+}
+
+export function getCategoryNames() {
+    const names = [];
+    categoryPack.map(cat => names.push(cat.name));
+    names.sort((a, b) => a.localeCompare(b));
+    return names;
+}
+
+export function getCategoryDetails(categoryName) {
+    return categoryPack.filter(cat => cat.name === categoryName)[0];
+}

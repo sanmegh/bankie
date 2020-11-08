@@ -1,0 +1,19 @@
+p.ErrorMsg {
+    color: var(--ColorError);
+    font-weight: bold;
+}
+
+button.SubmitButton {
+    margin: 20px;
+    padding: 10px 20px;
+}
+
+.Clickable {
+    cursor: pointer;
+}
+
+.Icon {
+    height: 40px;
+    width: 40px;
+    color: var(--ColorPrimary);
+}

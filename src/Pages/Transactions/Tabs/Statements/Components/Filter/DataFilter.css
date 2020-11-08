@@ -1,0 +1,12 @@
+.ButtonClearFilter {
+    background: none;
+    border: none;
+    color: black;
+    text-decoration: underline;
+    font-size: small;
+}
+
+.ButtonClearFilter:hover {
+    background: none;
+    border: 1px solid;
+}

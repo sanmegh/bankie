@@ -1,0 +1,22 @@
+.PaginationButtonsSet {
+    margin-right: 50px;
+}
+
+.PaginationRecordsPerPage {
+    margin: 8px;
+}
+
+.ButtonPage {
+    background: none;
+    border: none;
+    color: black;
+}
+
+.ButtonPage:hover {
+    cursor: pointer;
+    background-color: var(--ColorSecondarySelected);
+}
+
+.ButtonCurrentPage {
+    text-decoration: underline;
+}

@@ -1,0 +1,46 @@
+.Modal {
+    width: 400px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+    background-color: var(--ColorModalBackground);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -200px;
+    margin-left: -200px;
+}
+
+.ModalHeading {
+    color: var(--ColorAntiPrimary);
+    background-color: var(--ColorPrimary);
+    font-weight: bolder;
+    padding: 5px;
+}
+
+.ButtonOK {
+    color: rgb(0, 131, 0);
+    margin: 30px;
+    padding: 10px;
+    margin-right: 60px;
+}
+
+.ButtonOK:hover {
+    cursor: pointer;
+    color: rgb(0, 255, 0);
+    border: 1px dotted;
+}
+
+.ButtonCancel {
+    color: rgb(131, 0, 0);
+    margin: 30px;
+    padding: 10px;
+    margin-left: 60px;
+}
+
+.ButtonCancel:hover {
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+    border: 1px dotted;
+}

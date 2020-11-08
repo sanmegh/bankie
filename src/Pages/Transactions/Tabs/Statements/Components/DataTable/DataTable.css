@@ -1,0 +1,11 @@
+tr.DataRecord {
+  background-color: var(--ColorSecondarySelected);
+}
+
+tr.DataRecord:hover {
+  background-color: var(--ColorSecondaryHover);
+}
+
+.SortIcon {
+  padding-left: 8px;
+}

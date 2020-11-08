@@ -1,0 +1,12 @@
+.FormTable {
+    text-align: left;
+    width: 100%;
+}
+
+.FormField {
+    text-align: right;
+}
+
+.FormValue {
+    max-width: 120px;
+}

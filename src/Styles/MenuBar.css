@@ -1,0 +1,9 @@
+table.MenuBar {
+    border: 1px solid;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+td.EdgeMenuItem {
+    width: 50px;
+}
