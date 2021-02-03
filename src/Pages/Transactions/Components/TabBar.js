@@ -34,7 +34,7 @@ function TabBar(props) {
 
                             <p>You will lose all unsaved changes.</p>
 
-                            <Link to={{ pathname: '/home' }}>
+                            <Link to={{ pathname: '/bankie/home' }}>
                                 <FontAwesomeIcon className='ButtonOK' icon={faCheck} />
                             </Link>
                             <FontAwesomeIcon className='ButtonCancel' onClick={() => setState({ showConfirmBackAction: false })} icon={faWindowClose} />
