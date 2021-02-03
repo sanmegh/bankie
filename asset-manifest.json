@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/bankie/static/css/main.2350c54f.chunk.css",
+    "main.js": "/bankie/static/js/main.b4e0669d.chunk.js",
+    "main.js.map": "/bankie/static/js/main.b4e0669d.chunk.js.map",
+    "runtime-main.js": "/bankie/static/js/runtime-main.d62b3bee.js",
+    "runtime-main.js.map": "/bankie/static/js/runtime-main.d62b3bee.js.map",
+    "static/js/2.ffb5bf8c.chunk.js": "/bankie/static/js/2.ffb5bf8c.chunk.js",
+    "static/js/2.ffb5bf8c.chunk.js.map": "/bankie/static/js/2.ffb5bf8c.chunk.js.map",
+    "index.html": "/bankie/index.html",
+    "static/css/main.2350c54f.chunk.css.map": "/bankie/static/css/main.2350c54f.chunk.css.map",
+    "static/js/2.ffb5bf8c.chunk.js.LICENSE.txt": "/bankie/static/js/2.ffb5bf8c.chunk.js.LICENSE.txt",
+    "static/media/01-01-base.db5fa8fa.png": "/bankie/static/media/01-01-base.db5fa8fa.png",
+    "static/media/01-02-bank.8f5624a4.png": "/bankie/static/media/01-02-bank.8f5624a4.png",
+    "static/media/01-03-export.61573c5a.png": "/bankie/static/media/01-03-export.61573c5a.png",
+    "static/media/02-01-summary.230d7ef7.png": "/bankie/static/media/02-01-summary.230d7ef7.png",
+    "static/media/02-02-statements.f39f569a.png": "/bankie/static/media/02-02-statements.f39f569a.png",
+    "static/media/02-03-statistics.bff2a5bc.png": "/bankie/static/media/02-03-statistics.bff2a5bc.png",
+    "static/media/bankie_logo.79709b05.png": "/bankie/static/media/bankie_logo.79709b05.png",
+    "static/media/bankie_logo_white.921c3d4f.png": "/bankie/static/media/bankie_logo_white.921c3d4f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d62b3bee.js",
+    "static/js/2.ffb5bf8c.chunk.js",
+    "static/css/main.2350c54f.chunk.css",
+    "static/js/main.b4e0669d.chunk.js"
+  ]
+}
