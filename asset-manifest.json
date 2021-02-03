@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bankie/static/css/main.2350c54f.chunk.css",
-    "main.js": "/bankie/static/js/main.94495d51.chunk.js",
-    "main.js.map": "/bankie/static/js/main.94495d51.chunk.js.map",
+    "main.js": "/bankie/static/js/main.01dc2b91.chunk.js",
+    "main.js.map": "/bankie/static/js/main.01dc2b91.chunk.js.map",
     "runtime-main.js": "/bankie/static/js/runtime-main.d62b3bee.js",
     "runtime-main.js.map": "/bankie/static/js/runtime-main.d62b3bee.js.map",
     "static/js/2.ffb5bf8c.chunk.js": "/bankie/static/js/2.ffb5bf8c.chunk.js",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.d62b3bee.js",
     "static/js/2.ffb5bf8c.chunk.js",
     "static/css/main.2350c54f.chunk.css",
-    "static/js/main.94495d51.chunk.js"
+    "static/js/main.01dc2b91.chunk.js"
   ]
 }
