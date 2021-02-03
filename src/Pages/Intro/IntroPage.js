@@ -48,7 +48,7 @@ class IntroPage extends React.Component {
                 </p>
 
                 <div>
-                    <Link to={{ pathname: '/home' }}>
+                    <Link to={{ pathname: '/bankie/home' }}>
                         <button className='SubmitButton'>GET STARTED</button>
                     </Link>
                 </div>

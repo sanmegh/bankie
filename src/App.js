@@ -16,7 +16,7 @@ function App() {
 
       <Router>
         <header>
-          <Link to={{ pathname: '/' }}>
+          <Link to={{ pathname: '/bankie' }}>
             <img src={bankieLogo} className='AppLogo' alt='' />
             <label className='AppTitle Clickable'>BANKIE</label>
           </Link>
@@ -24,13 +24,13 @@ function App() {
 
         <main>
           <Switch>
-            <Route exact path='/'>
+            <Route exact path='/bankie'>
               <IntroPage />
             </Route>
-            <Route path='/home'>
+            <Route path='/bankie/home'>
               <HomePage />
             </Route>
-            <Route path='/transactions'>
+            <Route path='/bankie/transactions'>
               <TransactionsPage />
             </Route>
           </Switch>

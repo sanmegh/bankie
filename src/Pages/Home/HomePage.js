@@ -30,7 +30,7 @@ class HomePage extends React.Component {
 
                 {
                     this.state.transactions &&
-                    <Link to={{ pathname: '/transactions' }}>
+                    <Link to={{ pathname: '/bankie/transactions' }}>
                         <button className='SubmitButton'>SUBMIT</button>
                     </Link>
                 }
